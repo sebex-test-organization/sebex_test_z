@@ -24,7 +24,7 @@ defmodule SebexTestZ.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:sebex_test_y, "~> 0.4.0", organization: "membraneframework_labs"},
+      {:sebex_test_y, "~> 0.1.0", organization: "membraneframework_labs"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
